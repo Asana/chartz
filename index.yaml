@@ -4,10 +4,40 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: Ignore duplicate strings in the fullname helper template
+        - kind: removed
+          description: Removed deprecated "engine: gotpl" from the Chart.yaml
+    apiVersion: v2
+    appVersion: 1.11.1
+    created: "2024-04-04T10:28:23.362838Z"
+    description: CoreDNS is a DNS server that chains plugins and provides Kubernetes
+      DNS Services
+    digest: 3037e5186d1c6b2e3db5bd93eb5870eddafb238ccfa5e10370486aca30dae7f6
+    home: https://coredns.io
+    icon: https://coredns.io/images/CoreDNS_Colour_Horizontal.png
+    keywords:
+    - coredns
+    - dns
+    - kubedns
+    maintainers:
+    - name: mrueg
+    - name: haad
+    - name: hagaibarel
+    - name: shubham-cmyk
+    name: coredns
+    sources:
+    - https://github.com/coredns/coredns
+    type: application
+    urls:
+    - coredns-1.29.0.tgz
+    version: 1.29.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: Upgrade CoreDNS to 1.11.1
     apiVersion: v2
     appVersion: 1.11.1
-    created: "2023-09-05T00:55:43.852245Z"
+    created: "2024-04-04T10:28:23.361489Z"
     description: CoreDNS is a DNS server that chains plugins and provides Kubernetes
       DNS Services
     digest: 87a21437011cddcfbd2e6e25e2063535136466fa7ffac1e745ba4e858865db89
@@ -32,7 +62,7 @@ entries:
   kube-proxy:
   - apiVersion: v2
     appVersion: 1.27.4
-    created: "2023-09-05T00:55:43.853367Z"
+    created: "2024-04-04T10:28:23.364494Z"
     description: A Helm Chart to manage kube-proxy on AWS EKS clusters
     digest: c398a63e25c9e42d909680eb5fcdfae8a6488b1515378fd665897d7838a551f6
     home: https://github.com/jamiees2/aws-kube-proxy
@@ -54,7 +84,7 @@ entries:
     version: 1.27.4
   - apiVersion: v2
     appVersion: 1.27.1
-    created: "2023-09-05T00:55:43.852726Z"
+    created: "2024-04-04T10:28:23.363596Z"
     description: A Helm Chart to manage kube-proxy on AWS EKS clusters
     digest: 6dcfe1a5b3015b795269f4c7db6e9c12c27d20813d43f73e344ad8309e80406c
     home: https://github.com/jamiees2/aws-kube-proxy
@@ -74,4 +104,4 @@ entries:
     urls:
     - kube-proxy-1.27.1.tgz
     version: 1.27.1
-generated: "2023-09-05T00:55:43.851228Z"
+generated: "2024-04-04T10:28:23.359733Z"
